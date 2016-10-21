@@ -1,0 +1,10 @@
+package com.zl.retrofittest;
+
+import retrofit2.http.GET;
+import rx.Observable;
+
+
+public interface RxRetrofitDemo {
+    @GET("app/radio/channels")
+    Observable<DouBanRadioBean> testRxHttpGet();
+}
