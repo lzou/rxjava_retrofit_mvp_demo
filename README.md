@@ -1,2 +1,3 @@
 # rxjava_retrofit_mvp_demo
 rxjava+retrofit+mvp sample
+使用mvp架构,结合rxjava+retrofit来请求豆瓣一个接口来演示三者结合的例子。
