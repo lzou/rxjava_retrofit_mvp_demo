@@ -1,7 +1,7 @@
 package com.zl.retrofittest.mvp;
 
 
-import com.zl.retrofittest.DouBanRadioBean;
+import com.zl.retrofittest.bean.DouBanRadioBean;
 import com.zl.retrofittest.HttpHelper;
 
 import rx.Subscriber;

@@ -1,4 +1,4 @@
-package com.zl.retrofittest;
+package com.zl.retrofittest.bean;
 
 import java.util.List;
 

@@ -1,5 +1,7 @@
 package com.zl.retrofittest;
 
+import com.zl.retrofittest.bean.DouBanRadioBean;
+
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
@@ -16,7 +18,7 @@ import rx.schedulers.Schedulers;
  */
 
 public class HttpHelper {
-    public static final String BASE_URL = "https://www.douban.com/j/";
+    private static final String BASE_URL = "https://www.douban.com/j/";
 
     private static final int DEFAULT_TIMEOUT = 15;
 

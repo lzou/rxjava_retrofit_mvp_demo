@@ -1,6 +1,6 @@
 package com.zl.retrofittest.mvp;
 
-import com.zl.retrofittest.DouBanRadioBean;
+import com.zl.retrofittest.bean.DouBanRadioBean;
 
 /**
  * Created by zoulu on 16/10/20.

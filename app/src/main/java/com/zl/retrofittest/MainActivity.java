@@ -2,20 +2,12 @@ package com.zl.retrofittest;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.zl.retrofittest.bean.DouBanRadioBean;
 import com.zl.retrofittest.mvp.MainContract;
 import com.zl.retrofittest.mvp.MainPresenter;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
-import rx.Subscriber;
 
 public class MainActivity extends AppCompatActivity implements MainContract.View {
     private MainContract.Present mainPresenter;

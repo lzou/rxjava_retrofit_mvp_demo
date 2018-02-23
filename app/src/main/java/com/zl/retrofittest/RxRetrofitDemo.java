@@ -1,5 +1,7 @@
 package com.zl.retrofittest;
 
+import com.zl.retrofittest.bean.DouBanRadioBean;
+
 import retrofit2.http.GET;
 import rx.Observable;
 
